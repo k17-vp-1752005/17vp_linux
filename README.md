@@ -1,3 +1,19 @@
+# Hướng dẫn tổ chức thư mục
+```
+17VP_Linux_<MSSV>
+|--BTTL
+|---|--BTTL1
+|---|--BTTL2
+|---|--BTTL3
+|---|--...
+|
+|--BTTH
+|---|--BTTH1
+|---|--BTTH2
+|---|--BTTH3
+|---|--...
+
+```
 # 17vp_linux
 
 - MSSV: *\<MSSV>* 
