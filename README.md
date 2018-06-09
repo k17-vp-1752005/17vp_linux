@@ -14,7 +14,7 @@
 |---|--...
 
 ```
-# 17vp_linux
+# Cách trình bày nội dung README.md
 
 - MSSV: *\<MSSV>* 
 - Họ và tên: *<Họ và tên>*
