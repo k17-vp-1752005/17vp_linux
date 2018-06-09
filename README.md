@@ -101,13 +101,13 @@
 
 # Thao tác với FTP trên linux
 ## Mở kết nối đến máy chủ FTP
-```shell
+```doc
 ftp fileserver
 ```
 thay ```fileserver``` bằng địa chỉ IP máy chủ.
 
 Giao diện hiện ra như sau:
-```txt
+```doc
 Connected to 127.0.0.1.
 220-FileZilla Server 0.9.60 beta
 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
