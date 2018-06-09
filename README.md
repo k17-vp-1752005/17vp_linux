@@ -101,7 +101,7 @@
 
 # Thao tác với FTP trên linux
 ## Mở kết nối đến máy chủ FTP
-```sh
+```shell
 ftp fileserver
 ```
 thay ```fileserver``` bằng địa chỉ IP máy chủ.
