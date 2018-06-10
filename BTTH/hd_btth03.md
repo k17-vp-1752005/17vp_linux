@@ -73,7 +73,6 @@ Các hướng dẫn dưới đây minh họa cho việc tạo thư mục BTTL1 -
 ```shell
 i=1
 while (( $i<10 ));do # hoặc while [ $i -lt 10 ]
-\'=-
     mkdir BTTL/BTTL$i
     i=$((i+1))
 done
