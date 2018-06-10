@@ -32,5 +32,40 @@ then
     #làm gì đó
 fi
 ```
-*Lưu ý: thư mục hiện hành ban đầu của chương trình shell chính là thư mục chứa chương trình*
+*Lưu ý: thư mục hiện hành ban đầu của chương trình shell chính là thư mục chứa chương trình. Do đó để dùng thêm lệnh sau để giúp người dùng xác nhận đúng thư mục người dùng muốn chỉ định:*
+```shell
+readlink -f $dir_path
+```
 ## Yêu cầu 2
+1. Chuyển thư mục hiện hành đến thư mục người dùng đã nhập
+```shell
+cd $dir_path
+```
+2. Hỏi người dùng có muốn xóa toàn bộ thư mục
+
+Trong câu hỏi nên hướng dẫn người dùng cách nhập câu trả lời, ví dụ như "yes/no".
+
+```shell
+read is_delete
+if [ $is_delete = "yes" ]
+then
+#...
+else
+...
+fi
+```
+Nếu chúng ta mong muốn chấp nhận trường hợp người dùng có thể nhập ký tự "y". Thì có thể kiểm tra kết hợp một trong hai điệu kiện. Có 2 cách viết:
+- Cách 1
+```shell
+if [ $is_delete = "yes" -o $is_delete = "y"]
+```
+- Cách 2
+```shell
+if [[ $is_delete = "yes" || $is_delete = "y"]]
+```
+3. Xóa toàn bộ nội dung của thư mục
+
+3. T
+
+
+
