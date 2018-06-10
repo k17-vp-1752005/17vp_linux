@@ -64,8 +64,34 @@ if [ $is_delete = "yes" -o $is_delete = "y"]
 if [[ $is_delete = "yes" || $is_delete = "y"]]
 ```
 3. Xóa toàn bộ nội dung của thư mục
+```shell
+rm -f *
+```
+## Yêu cầu 4
+Các hướng dẫn dưới đây minh họa cho việc tạo thư mục BTTL1 - BTTL9
+- Cách 1: sử dụng vòng lặp while
+```shell
+i=1
+while (( $i<10 ));do # hoặc while [ $i -lt 10 ]
+\'=-
+    mkdir BTTL/BTTL$i
+    i=$((i+1))
+done
+```
+- Cách 2: sử dụng vòng lặp for
+```shell
+for i in {1..9}; do
+    mkdir BTTL/BTTL$i
+done
+```
+hoặc
+```shell
+for (( i=1 ; i<=9 ; i=i+1 )); do
+    mkdir BTTL/BTTL$i
+done
+```
+## Yêu cầu 5,6,7: sinh viên tự thực hiện
 
-3. T
 
 
 
