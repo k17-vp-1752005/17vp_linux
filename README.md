@@ -101,13 +101,13 @@
 
 # Thao tác với FTP trên linux
 ## Mở kết nối đến máy chủ FTP
-```doc
+```console
 ftp fileserver
 ```
 thay ```fileserver``` bằng địa chỉ IP máy chủ.
 
 Giao diện hiện ra như sau:
-```doc
+```console
 Connected to 127.0.0.1.
 220-FileZilla Server 0.9.60 beta
 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
@@ -116,7 +116,7 @@ Name (127.0.0.1:ncduc):
 ```
 
 Lần lượt nhập Name và Password phù hợp. Màn hình kết quả:
-```txt
+```console
 Name (127.0.0.1:ncduc): 17vp
 331 Password required for 17vp
 Password:
