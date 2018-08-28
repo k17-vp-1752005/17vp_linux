@@ -1,0 +1,34 @@
+BAI 1:
+-whoami
+-ls -a
+-ls -l
+-bash --version
+
+BAI 2:
+1, mkdir BaiTapLinux
+   mkdir BTTL
+   mkdir BTTH
+2,pwd
+3,cp -r BTTH BaiTapLinux
+  cp -r BTTL BaiTapLinux
+4,cd BTTH
+5,touch tempate.txt
+6, echo"Ten cua ban?"
+   read name
+   echo"MSSV cua ban?"
+   read mssv
+   echo"Ten bai tap ban dang lam?"
+   read bt
+echo"#!bin/bash" >template.txt
+echo"#Ho va ten: $name" >template.txt
+echo"#MSSV: $mssv" >template.txt
+echo"#Ten bai tap: $bt" >template.txt
+7, cat template.txt
+8, mkdir BTTH01
+9, cp template.txt BTTH01
+10, mv template.txt 1752005_btth01.sh
+11. chmod 774 1752005_btth01.sh
+
+BAI 3:
+vi 1752005_btth01.sh
+
